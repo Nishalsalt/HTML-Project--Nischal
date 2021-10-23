@@ -1,0 +1,143 @@
+* {
+    margin-left: 0%;
+    padding: 0%;
+    margin-top: 0%;
+    font-family: sans-serif;
+    /* overflow-x: hidden; */
+}
+body {
+    background: #111;
+    width: 100%;
+}
+.Navbar {
+    background: rgba(17, 17, 17, 0.300);
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+}
+.Navbar ul {
+    overflow-x: visible;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-left: 53%;
+}
+.Navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.Nav-Links {
+    margin-top: -7%;
+}
+.Logo_main {
+    width: 15%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.Bg-start-logo {
+    overflow-x: hidden;
+    margin-top: 12%;
+    width: 80%;
+    margin-left: 10%;
+}
+.Window-Start-Bg-logo {
+    overflow-x: hidden;
+    background: #111;
+    width: 100%;
+    height: 100vh;
+}
+
+.Top-Banner {
+    overflow: hidden;
+    width: 100%;
+}
+
+item {
+    width: 40%;
+    margin-top: 2%;
+    height: 97vh;
+    margin-left: 3%;
+    background: white;
+    box-sizing: border-box;
+    display: grid;
+    border-radius: 5px;
+    text-align: center;
+}
+item2 {
+    margin-left: 47%;
+    margin-top: -50%;
+    width: 50%;
+    height: 97vh;
+    background: white;
+    box-sizing: border-box;
+    display: grid;
+    border-radius: 5px;
+    text-align: center;
+
+}
+item3 {
+    width: 30%;
+    height: 73vh;
+    margin-left: 3%;
+    /* margin-top: 3%; */
+    background: white;
+    box-sizing: border-box;
+    display: grid;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+item4 {
+    width: 30%;
+    height: 73vh;
+    margin-left: 35%;
+    margin-top: -35.2%;
+    background: white;
+    box-sizing: border-box;
+    display: grid;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+item5 {
+    width: 30%;
+    height: 73vh;
+    margin-left: 67%;
+    margin-top: -35.5%;
+    background: white;
+    box-sizing: border-box;
+    display: grid;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.Item-image-lg {
+    width: 96%;
+    margin-left: 2%;
+}
+.Item-image-sm {
+    width: 98%;
+    margin-left: 1%;
+}
+price {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+name {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+description {
+    font-size: 17px;
+    font-family: sans-serif;
+}
+footer {
+    background: white;
+    width: 100%;
+    height: 10vh;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
