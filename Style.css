@@ -148,7 +148,7 @@ footer {
 @media (max-width: 1060px) {
     item {
         width: 40%;
-        height: 90vh;
+        height: 100vh;
         margin-left: 5%;
         background: white;
         box-sizing: border-box;
@@ -158,7 +158,7 @@ footer {
     }
     item2 {
         width: 40%;
-        height: 90vh;
+        height: 100vh;
         margin-left: 50%;
         margin-top: -57.5%;
         background: white;
@@ -169,6 +169,7 @@ footer {
     }
     item3 {
         width: 40%;
+        height: 100vh;
         margin-left: 5%;
     }
     item5 {
@@ -246,6 +247,9 @@ footer {
     }
 }
 @media (max-width: 400px) {
+    .Navbar {
+        height: 20vh;
+    }
     .Bg-start-logo {
         margin-top: 90%;
     }
@@ -253,5 +257,26 @@ footer {
 @media (max-width: 300px) {
     .Bg-start-logo {
         margin-top: 100%;
+    }
+}
+@media (max-width: 715px) {
+    
+    .Navbar {
+        height: 25vh;
+    }
+    .Logo_main{
+        width: 30%;
+        margin-left: 36%;
+    }
+    .Nav-Links {
+       margin-left: 5%;
+    }
+
+    .Navbar ul {
+        margin-top: 10%;
+        margin-left: 1%;
+    }
+    .Navbar ul li a {
+        font-size: 18px;
     }
 }
